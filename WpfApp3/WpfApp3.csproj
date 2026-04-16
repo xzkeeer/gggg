@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image\amsterdam_tour.png" />
+    <None Remove="Image\austria_tour.png" />
+    <None Remove="Image\czech_tour.png" />
+    <None Remove="Image\france_tour.png" />
+    <None Remove="Image\germany_tour.png" />
+    <None Remove="Image\icon.png" />
+    <None Remove="Image\italy_tour.png" />
+    <None Remove="Image\poland_tour.png" />
+    <None Remove="Image\spain_tour.png" />
+    <None Remove="Image\sweden_tour.png" />
+    <None Remove="Image\vienna_tour.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\amsterdam_tour.png" />
+    <Resource Include="Image\austria_tour.png" />
+    <Resource Include="Image\czech_tour.png" />
+    <Resource Include="Image\france_tour.png" />
+    <Resource Include="Image\germany_tour.png" />
+    <Resource Include="Image\icon.png" />
+    <Resource Include="Image\italy_tour.png" />
+    <Resource Include="Image\poland_tour.png" />
+    <Resource Include="Image\spain_tour.png" />
+    <Resource Include="Image\sweden_tour.png" />
+    <Resource Include="Image\vienna_tour.png" />
+  </ItemGroup>
+
+</Project>
